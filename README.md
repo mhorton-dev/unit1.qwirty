@@ -4,7 +4,7 @@ We've now covered the basics of HTML and CSS. Let's put it all together! In this
 
 ## Instructions
 
-1. Fork and clone this starter repository.
+1. Create a new repository under your GitHub account using this one as a template.
 2. Open the cloned repository in VS Code.
 3. Build!
 
@@ -20,4 +20,4 @@ While you are free to tackle this however you'd like, here are some tips:
 
 ## Submission
 
-On Canvas, submit a link to your GitHub repository.
+On Canvas, submit a link to your public GitHub repository.
