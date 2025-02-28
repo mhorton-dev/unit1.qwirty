@@ -1,6 +1,6 @@
 # Qwirty
 
-We've now covered the basics of HTML and CSS. Let's put it all together! In this review activity, you will be recreating a standard e-commerce site. You can visit [the live Qwirty demo](https://sweet-dolphin-36595b.netlify.app/) to see the end goal. Get as close as you can!
+We've now covered the basics of HTML and CSS. Let's put it all together! In this review activity, you will be recreating a standard e-commerce site. You can visit [the live Qwirty demo](https://fsa-qwirty.netlify.app/) to see the end goal. Get as close as you can!
 
 ## Instructions
 
