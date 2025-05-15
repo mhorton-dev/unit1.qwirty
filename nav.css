@@ -1,0 +1,21 @@
+nav.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  min-width: 25ch;
+  padding: 0.25rem;
+}
+
+nav.categories a {
+  background: var(--fg);
+  color: white;
+  text-transform: uppercase;
+
+  padding: 0.5rem;
+}
+
+nav.categories a:hover {
+  cursor: pointer;
+  background: var(--fg-dark);
+}

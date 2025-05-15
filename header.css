@@ -1,0 +1,100 @@
+header.page nav {
+  background: var(--fg);
+  color: white;
+}
+
+header.page a:hover {
+  text-decoration: underline;
+}
+
+header.page .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header.page menu {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+}
+
+header.page menu.screen-lg {
+  display: none;
+}
+
+header.page menu li {
+  padding: 0.25rem;
+}
+
+header.page menu li:not(:last-child) {
+  border-right: 1px solid var(--bg);
+}
+
+header.page .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.25rem;
+
+  padding: 0.25rem;
+}
+
+header.page .bottom h1 {
+  padding: 1rem;
+
+  text-align: center;
+  color: var(--fg);
+}
+
+header.page .bottom form {
+  display: flex;
+  flex: 1;
+}
+
+header.page .bottom form input {
+  flex: 1;
+
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid var(--fg);
+  padding: 0.25rem 0.5rem;
+}
+
+header.page .bottom form button {
+  background: var(--fg);
+  color: white;
+
+  border: 0;
+  padding: 0.25rem;
+}
+
+header.page .bottom .ad {
+  background: rgb(212, 8, 8);
+
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+  padding: 0.7rem;
+
+  flex-shrink: 0;
+}
+
+@media (min-width: 720px) {
+  header.page menu.screen-lg {
+    display: flex;
+  }
+  header.page menu.screen-sm {
+    display: none;
+  }
+
+  header.page .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2ch;
+
+    padding-right: 1rem;
+  }
+}
